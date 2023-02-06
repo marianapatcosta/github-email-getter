@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GitHub E-mail Getter is a simple chrome extension to extract the e-mail associated with the commits of a GitHub user."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>GitHub E-mail Getter</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>GitHub E-mail Getter</h1>
+
+      <form id="search-email-form">
+        <input
+          id="github-name-input"
+          placeholder="Enter a GitHub username or URL"
+          autocomplete="off"
+        />
+        <button
+          id="search-button"
+          aria-label="click to search the e-mail associated with this GitHub user"
+          title="search GitHub's email"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <div id="search-result"></div>
+    </div>
+  </body>
+  <script src="popup.js"></script>
+</html>
