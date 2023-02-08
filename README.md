@@ -4,7 +4,7 @@ GitHub E-mail Getter is a simple chrome extension to extract the e-mail associat
 
 ![image](https://user-images.githubusercontent.com/43031902/215606660-b4586590-48dd-478f-ba0a-dedd1a7037ce.png)
 
-Download it from [Chrome Web Store]().
+Download it from [Chrome Web Store](https://chrome.google.com/webstore/detail/github-email-getter/jdjkjpeooffmacndbhajdkndahdbldgn?hl=pt-PT&authuser=0).
 
 ## How to use
 
